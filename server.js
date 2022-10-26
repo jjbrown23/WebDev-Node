@@ -5,6 +5,7 @@ http.createServer(function(request, response) {
     response.writeHead(200, {"Content-Type": "text/html"});
     response.write("<h1>Hello, Node.js!<h1>");
     response.write("<h2>Jacob Brown - w23h769</h2> \
-                    <p> Running node server on port 3032</p>");
+                    <p> Running node server on port 3032</p> \
+                    <a href='https://github.com/jjbrown23/WebDev-Node'>Git Hub Link</a>");
     response.end();
 }).listen(3032);
